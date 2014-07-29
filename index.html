@@ -15,21 +15,17 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
+    <link href="css/grayscale.css" rel="stylesheet"/>
+	 <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
+<!-- jQuery Version 1.11.0 -->
+<script src="js/jquery-1.11.0.js"></script>
+
+       
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -42,7 +38,9 @@
                     <div class="col-md-8 col-md-offset-2">
 				<img src="C:\Users\Ross\Documents\GitHub\Finance-Fashion\img\F+Flogo.png"></img>
 					<p class="intro-text"><b>An invite-only date night in London.</b></p>
-                       
+                       <a href="#block-2" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -57,8 +55,14 @@
                     <p><b>80 eligibles. One venue.<br>
 					Drinks, networking, dating.<br>
 					Next Party: Friday 2nd October<br>
-					Apply for tickets. </b></p>
-                    
+					</b>
+					<br><br>
+					<a href="#apply" data-toggle="modal">Click To Apply</a>
+					
+					</p>
+                    <a href="#block-3" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                    </div>
             </div>
         </div>
@@ -73,6 +77,9 @@
                     <p><b>"We were having so much fun that we were gently nudged out when the bar closed!" - Dianne</b></p>
 					<p><b>"They created the perfect environment to meet some really cool, beautiful and interesting girls and I look forward to the next event." Richard.</b> </p>
 					<p><b>"They closely curate the venue and the crowd, so you can turn up and know you're going to have a great evening" Tushar</b></p>
+					<a href="#block-4" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                    </div>
             </div>
         </div>
@@ -89,6 +96,9 @@
 				<!--fix this image appearing to the right-->
 				<p><a href="http://www.thecitystreet.com"><img src=".\img\thecitystreet.png"></a><br><br>
 				 <b>The CityStreet is a virtual directory, network, and event calendar for the finance industry. Connecting financial professionals from The City to Wall Street.</b></p>
+				 <a href="#block-5" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
             </div>
         </div>
     </section>
@@ -111,7 +121,7 @@
     <footer>
 	    <div class="wrapper">
 	        <div class="left1">
-	            <p>About US
+	            <p>About US <br>
 				<b>Nana and Vana</b> <!--Make this link to a page--><br> 
 				<a href="http://www.socialconcierge.co.uk">SC Dating Club</a> <br>
 				<a href="http://www.thecitystreet.com">The CityStreet</a> 
@@ -128,19 +138,29 @@
 	        <div class="right">
 	            <a href="https://www.facebook.com/financeandfashion"> <img src="C:\Users\Ross\Documents\GitHub\Finance-Fashion\img\FBlogo.png"> </a>
 				<a href="https://twitter.com/RossDWilliams93" class="twitter-follow-button" data-show-count="false">Follow @RossDWilliams93</a>
-				<script>
-				<!-- This is a place holder (using my personal twitter)-->
-				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-				</script>
+				
+				<!-- TODO add Twitter and Instagram)-->
+				
 				Twitter (pending)	
-								Instagram (pending)
+				Instagram (pending)
 
 	        </div>  	       
 	    </div>
 	</footer>
- 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+	
+	<div class = "modal fade" id = "apply" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				
+				<div class = "modal-body">
+				<iframe src="https://docs.google.com/forms/d/1AK_1NzDajf6srWf_aMKSF_biDGtCnWlcPKvrheOkT14/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+				</div>
+			</div>
+		</div>
+	
+	</div> 
+    
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -153,7 +173,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
+	
 </body>
 
 </html>
