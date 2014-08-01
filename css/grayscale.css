@@ -7,9 +7,9 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue";
     color: #000;
-    background-color: #fff;
+    background-color: #000;
 }
 
 html {
@@ -17,7 +17,9 @@ html {
     height: 100%;
 }
 
-h1,
+h1 {font-size: 150px;
+}
+
 h2,
 h3,
 h4,
@@ -25,7 +27,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Helvetica Neue";
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -34,11 +36,12 @@ h6 {
     width: 70px;
     height: 70px;
     margin-top: 15px;
+	
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -48,7 +51,7 @@ h6 {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #000;
     background: rgba(255,255,255,.1);
 }
 
@@ -70,6 +73,32 @@ h6 {
     -moz-animation-timing-function: linear;
 }
 
+.myButton {
+	
+
+	background-color:transparent;
+	border:3px solid #1c1716;
+	display:inline-block;
+	cursor:pointer;
+	
+	font-family:"Helvetice Neue";
+	font-size:21px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton:hover {
+    background-color : #A4A4A4;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -85,7 +114,7 @@ p {
 }
 
 a {
-    color: #FFF;
+    color: #0B0080;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -94,82 +123,14 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #FFF;
+    color: #8181F7;
 }
 
 .light {
     font-weight: 400;
 }
 
-.navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
-}
 
-.navbar-custom .navbar-brand {
-    font-weight: 700;
-}
-
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.navbar-custom a {
-    color: #fff;
-}
-
-.navbar-custom .nav li.active {
-    outline: nonte;
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.3);
-}
-
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #000;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
-}
 
 .intro {
     display: table;
@@ -177,13 +138,15 @@ a:focus {
     height: auto;
     padding: 10px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     background: url(../img/BLOCKONE.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -webkit-background-filter: alpha(opacity=40);
+	-moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+   
 }
 
 .intro .intro-body {
@@ -199,7 +162,10 @@ a:focus {
     font-size: 18px;
 }
 
-
+.row {
+margin-right: -15px;
+margin-left: -15px;
+}
 
 @media(min-width:767px) {
     .intro {
@@ -207,15 +173,12 @@ a:focus {
         padding: 0;
     }
 
-
-
-
-
 .block-2 {
+	display: table;
     width: 100%;
-	height: 850px;
-    padding: 100px 0;
-    color: #fff;
+	height: 900px;
+    text-align: center;
+	
     background:  url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
@@ -224,18 +187,28 @@ a:focus {
     -o-background-size: cover;
 }
 
+.block-2 .container {
+	display: table-cell;
+    vertical-align: middle;
+}
+#easeButton {
+	vertical-align: bottom;
+}
+
 .block-3 {
     width: 100%;
-	height: 850px;
+	height: auto;
     padding: 50px 0;
-    color: #fff;
+    color: #000;
     background:  url(../img/BLOCKTHREE.jpg) no-repeat bottom center scroll;
-    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	vertical-align: center;
 }
+
+
 .block-4 {
 	background: #fff;
 }
@@ -252,8 +225,14 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	vertical-align: middle;
 }
 
+.block-5 .container {
+ vertical-align:bottom;
+ font-family: Helvetice Neue;
+ 
+ }
 
 @media(min-width:767px) {
     }
@@ -336,6 +315,25 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+.left{
+   position: relative;
+   float: left;
+   left: 0.50%;
+   width: 33.00%;   
+}
+.middle{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   width: 33.00%; 
+}
+.right{
+   position: relative;
+   float: right;
+   right: 0.50%;
+   width: 31.00%;
+}
+
 .header{
    position: relative;
    float: left;
@@ -364,7 +362,7 @@ body {
    width: 33.00%;
    background-color: #fff;
 }
-.right{
+.right1{
    position: relative;
    float: right;
    right: 0.50%;
@@ -384,4 +382,59 @@ body {
    margin: 0px;
    font-size: 90%;
    background-color: #fff;
+}
+
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 576px;
+	height: 200px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 290px;
+	height: 200px;
 }
