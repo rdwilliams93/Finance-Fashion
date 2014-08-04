@@ -26,34 +26,42 @@ a:focus {
 
 #top {
 	margin: 40px;
+	margin-bottom: 200px;
 	text-align: center;
 }
 	
-.container {
-	background: #fff;
-	height: 320px;
+#container {
+	width: auto;
+	height: 400px;
+	background-color: #fff;
 	opacity: 0.7;
-	vertical-align: middle;
-	
-}	
-	
+}
+
 #Vana {
-	
+	font-size: 1.00em;
 	vertical-align: middle;
-	width: 50%;
+	width: 40%;
 	position: relative;
-	float: left;
-	text-align: center;
+	float: right;
+	text-align: justify;
+	margin: 0px 20px 10px 20px;
 	opacity: 1;
 	
 } 
 
 #Nana {
-	
+	font-size: 1em;
+	margin-left:100px;
 	vertical-align: middle;
-	width: 50%;
+	width: 40%;
 	position: relative;
-	float: right;
-	text-align: center;
-	opacity: 1;
+	float: left;
+	text-align: justify;
+	
 }
+
+
+
+
+
+
