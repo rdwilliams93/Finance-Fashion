@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Helvetica Neue";
+    font-family: "PT Sans";
     color: #000;
     background-color: #000;
 }
@@ -26,8 +26,8 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family:"Helvetica Neue";
+    
+    
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -74,30 +74,46 @@ h6 {
 }
 
 .myButton {
-	
-
-	background-color:transparent;
-	border:3px solid #1c1716;
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
 	display:inline-block;
 	cursor:pointer;
+	color:#ffffff;
 	
-	font-family:"Helvetice Neue";
-	font-size:21px;
+	font-size:15px;
+	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
+	text-shadow:0px -1px 0px #5b6178;
 }
 .myButton:hover {
-	background-color:transparent;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
 
-.myButton:hover {
-    background-color : #A4A4A4;
-}
 
 p {
     margin: 0 0 25px;
@@ -163,6 +179,7 @@ a:focus {
 }
 
 .row {
+margin-top: 300px;
 margin-right: -15px;
 margin-left: -15px;
 }
@@ -197,13 +214,7 @@ margin-left: -15px;
     width: 100%;
 	height: auto;
     padding: 50px 0;
-    color: #000;
-    background:  url(../img/BLOCKTHREE.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-	vertical-align: center;
+    background-color: #A9BCF5;
 }
 
 
@@ -214,6 +225,7 @@ margin-left: -15px;
     width: 100%;
 	height: 500px;
     padding: 50px 0;
+	
     color: #fff;
     background:  url(../img/BLOCKFIVE.jpg) no-repeat bottom center scroll;
     background-color: #fff;
@@ -228,7 +240,7 @@ margin-left: -15px;
 
 .block-5 .container {
  vertical-align:bottom;
- font-family: Helvetice Neue;
+ margin: 100px 50px 50px 50px;
  
  }
 
@@ -238,7 +250,6 @@ margin-left: -15px;
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -317,7 +328,8 @@ body {
    position: relative;
    float: left;
    left: 0.50%;
-   width: 33.00%;   
+   width: 33.00%; 
+	
 }
 .middle{
    position: relative;
@@ -344,13 +356,20 @@ body {
    float: left;
    left: 0.00%;
    width: 100.00%;
-   background-color: #fff;
+   background-color: #A9BCF5;
+}
+.wrapper1{
+   position: relative;
+   float: left;
+   left: 0.00%;
+   width: 100.00%;
+   background-color: #FFF;
 }
 .left1{
    position: relative;
-   float: left;
+   
    left: 0.50%;
-   width: 33.00%;
+   width: 100%;
    background-color: #fff;
 }
 .left2{
@@ -368,7 +387,7 @@ body {
    background-color: #fff;
 }
 
-.right1 img{
+.left1 img{
 	height: 29px;
 }
 .footer{
