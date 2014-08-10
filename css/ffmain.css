@@ -24,8 +24,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    
-    
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -34,13 +32,13 @@ h6 {
     width: 70px;
     height: 70px;
     margin-top: 15px;
-	
+	margin-left: %;
     padding: 7px 16px;
     border: 2px solid #000;
     border-radius: 35px;
     font-size: 40px;
     color: #000;
-    background: 0 0;
+    background: #FFF;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -50,7 +48,7 @@ h6 {
 .btn-circle:focus {
     outline: 0;
     color: #000;
-    background: rgba(255,255,255,.1);
+    background: #FFF;
 }
 
 .btn-circle i.animated {
@@ -72,30 +70,22 @@ h6 {
 }
 
 .myButton {
-	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
-	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
-	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
 	
-	
-	background-color:#A9BCF5;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #057fd0;
+	background-color:#FF0000;
+	border:1px solid #942911;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
+	font-size:25px;
+	padding:12px 30px;
 	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
+	text-shadow:0px 1px 0px #854629;
 }
-.myButton:hover {
-	
-	background-color: #A9BCF5;
-}
+
 .myButton:active {
 	position:relative;
 	top:1px;
@@ -133,12 +123,20 @@ a:focus {
     font-weight: 400;
 }
 
+#logotop {
+vertical-align: top;
+background-color: #fff;
+width: 100%;
+height: 70px;
+text-align: center;
+padding-top: 10px;
+text-align: center;
+}
 
-
-.intro {
+.intro .intro-body {
     display: table;
     width: 100%;
-    height: auto;
+    height: 700px;
     padding: 10px 0;
     text-align: center;
     color: #000;
@@ -149,11 +147,8 @@ a:focus {
 	-moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-   
-}
-
-.intro .intro-body {
-    display: table-cell;
+	
+  
     vertical-align: middle;
 }
 
@@ -162,7 +157,11 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    display: inline-block;
+	font-size: 18px;
+	background-color: #fff;
+	height: 150px;
+	width: 500px;
 }
 
 .row {
@@ -182,7 +181,7 @@ margin-left: -15px;
     width: 100%;
 	height: 700px;
     text-align: center;
-	
+	color: #000;
     background:  url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
@@ -192,23 +191,35 @@ margin-left: -15px;
 }
 
 .block-2 .container {
+	display: inline-block;
 	display: table-cell;
     vertical-align: middle;
 }
 
+.block-2 .container .row .description {
+	display: inline-block;
+	background: #FFF;
+	font-size: 30px;
+	width: 600px;
+}
 
 .block-3 {
     width: 100%;
 	height: 700px;
     padding: 50px 0;
-	background-color: #A9BCF5;
-    
+	background-color: #fff;
+    text-align: center;
+	margin-bottom: 20px;
 }
 
+.down {
+	margin-bottom: 20px;
+}
 
 .block-4 {
 	background: #fff;
 	height: 700px;
+	margin-top: 20px;
 }
 .block-5 {
     width: 100%;
@@ -227,18 +238,18 @@ margin-left: -15px;
 }
 
 #contacts {
-	margin-left: 30%;
-	margin-top: 120px;
 	
+	margin-top: 120px;
+	display: inline-block;
 	background-color: #FFF;
 	opacity: 0.6;
 	width: 500px;
-	height: 250px;
+	height: 265px;
 }
 
 .block-5 .container {
  vertical-align:bottom;
- margin: 100px 50px 50px 50px;
+ margin: 100px;
  height: 700px;
  
  }
@@ -352,8 +363,9 @@ body {
 }
 .wrapper{
    position: relative;
-   height: 700px;
-   background-color: #A9BCF5;
+   height: 550px;
+   background-color: #fff;
+   display: inline-block;
 }
 
 #ldn {
