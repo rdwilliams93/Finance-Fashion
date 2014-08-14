@@ -34,37 +34,18 @@ a:focus {
 	text-align: center;
 }
 	
-#container {
-	margin-left: 90px;
-	margin-right: 90px;
-	width: auto;
-	height: 380px;
-	background-color: #fff;
-	opacity: 0.7;
+table {
+	background-color:#FFF;
+	opacity: 0.8;
+	text-align: justify;
+	padding: 0px 50px 0px 50px;
 }
 
-#Vana {
-	font-size: 1.00em;
-	vertical-align: middle;
-	width: 40%;
-	position: relative;
-	float: right;
-	text-align: justify;
-	margin: 0px 90px 10px 20px;
-	opacity: 1;
-	
-} 
-
-#Nana {
-	font-size: 1em;
-	margin-left:100px;
-	vertical-align: middle;
-	width: 40%;
-	position: relative;
-	float: left;
-	text-align: justify;
-	
+table td {
+	width:40%;
+	padding: 0px 20px 20px 0px;
 }
+
 
 
 

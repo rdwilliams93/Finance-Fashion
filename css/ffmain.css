@@ -152,16 +152,15 @@ text-align: center;
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-}
+
 
 .intro .intro-body .intro-text {
     display: inline-block;
-	font-size: 18px;
+	font-size: 22px;
 	background-color: #fff;
-	height: 150px;
+	height: 110px;
 	width: 500px;
+	padding-top: 21px;
 }
 
 .row {
@@ -199,8 +198,8 @@ margin-left: -15px;
 .block-2 .container .row .description {
 	display: inline-block;
 	background: #FFF;
-	font-size: 30px;
-	width: 600px;
+	font-size: 22px;
+	width: 450px;
 }
 
 .block-3 {
@@ -211,6 +210,8 @@ margin-left: -15px;
     text-align: center;
 	margin-bottom: 20px;
 }
+
+
 
 .down {
 	margin-bottom: 20px;
