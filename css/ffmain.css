@@ -169,8 +169,8 @@ margin-right: -15px;
 margin-left: -15px;
 }
 
-@media(min-width:767px) {
-    .intro {
+
+.intro {
         height: 100%;
         padding: 0;
     }
@@ -255,9 +255,8 @@ margin-left: -15px;
  
  }
 
-@media(min-width:767px) {
-    }
-}
+
+
 
 .btn {
     text-transform: uppercase;
