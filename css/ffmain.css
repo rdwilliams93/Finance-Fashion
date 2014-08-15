@@ -266,11 +266,19 @@ margin-left: -15px;
 	.block-4 img {
 		width: 12em;
 	}
-    .block-5 img {
-		width: 3em;
 	
+	.block-4 .btn-circle {
+		margin-left: 0;
 	}
 	
+	
+    .block-5 img {
+		width: 3em;
+	}
+	
+	.block-5 .btn-circle {
+		margin-left: 0;
+	}
 	.btn-circle  {
 	
 	margin-left: 39%;
@@ -280,6 +288,7 @@ margin-left: -15px;
 	margin-left: 14%
 	}
 	}	
+	
 
 
 .btn {
