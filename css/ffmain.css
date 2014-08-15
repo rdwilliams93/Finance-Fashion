@@ -181,7 +181,7 @@ margin-left: -15px;
 	height: 700px;
     text-align: center;
 	color: #000;
-    background:  <!--url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll;--> ;
+    background:  url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll ;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
