@@ -223,6 +223,11 @@ margin-left: -15px;
 	height: 700px;
 	margin-top: 20px;
 }
+
+.block-4 img {
+	width: 600px;
+}
+
 .block-5 {
     width: 100%;
 	height: 700px;
