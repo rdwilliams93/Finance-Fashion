@@ -259,6 +259,7 @@ margin-left: -15px;
 @media(max-width:500px) {
 	#logotop img{
 	width: 35em;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	}
 	
