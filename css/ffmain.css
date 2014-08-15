@@ -122,11 +122,11 @@ a:focus {
 .light {
     font-weight: 400;
 }
-
+@media(min-width:767px) {
 #logotop {
 vertical-align: top;
 background-color: #fff;
-width: 100%;
+width: auto;
 height: 70px;
 text-align: center;
 padding-top: 10px;
@@ -170,7 +170,7 @@ margin-left: -15px;
 }
 
 
-.intro {
+    .intro {
         height: 100%;
         padding: 0;
     }
@@ -181,7 +181,7 @@ margin-left: -15px;
 	height: 700px;
     text-align: center;
 	color: #000;
-    background:  url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll;
+    background:  <!--url(../img/BLOCKTWO.jpg) no-repeat bottom center scroll;--> ;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,8 +254,32 @@ margin-left: -15px;
  height: 700px;
  
  }
+}
 
+@media(max-width:500px) {
+	#logotop img{
+	width: 35em;
+	margin-bottom: 20px;
+	}
+	
+	
+	.block-4 img {
+		width: 12em;
+	}
+    .block-5 img {
+		width: 3em;
+	
+	}
+	
+	.btn-circle  {
+	
+	margin-left: 39%;
+	}
 
+	.myButton {
+	margin-left: 14%
+	}
+	}	
 
 
 .btn {
