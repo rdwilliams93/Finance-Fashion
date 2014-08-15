@@ -187,7 +187,7 @@ margin-left: -15px;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	border: 25px solid #fff;
+	border-top: 50px solid #fff;
 }
 
 .block-2 .container {
