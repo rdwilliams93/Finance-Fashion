@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-	font-family: 'Exo 2', 'sans-serif';
+	font-family: 'Lato';
     color: #000;
 	border-width: 0px;
 	padding: 0px;
@@ -140,7 +140,7 @@ text-align: center;
     padding: 10px 0;
     text-align: center;
     color: #000;
-    background: url(../img/BLOCKONE.jpg) no-repeat bottom center scroll;
+    background: url(../img/BLOCKONEbw.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -webkit-background-filter: alpha(opacity=40);
@@ -161,6 +161,8 @@ text-align: center;
 	height: 110px;
 	width: 500px;
 	padding-top: 21px;
+	opacity:0.8;
+	border-radius: 15px;
 }
 
 .row {
@@ -181,7 +183,7 @@ margin-left: -15px;
 	height: auto;
     text-align: center;
 	color: #000;
-    background:  url(../img/BLOCKTWO.jpg) no-repeat center scroll ;
+    background:  url(../img/BLOCKTWObw.jpg) no-repeat center scroll ;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,6 +203,8 @@ margin-left: -15px;
 	background: #FFF;
 	font-size: 22px;
 	width: 450px;
+	opacity: 0.8;
+	border-radius: 15px;
 }
 
 .block-3 {
@@ -233,7 +237,7 @@ margin-left: -15px;
 	height: 700px;
     padding: 50px 0;
     color: #000;
-    background:  url(../img/BLOCKFIVE.jpg) no-repeat bottom center scroll;
+    background:  url(../img/BLOCKFIVEbw.jpg) no-repeat bottom center scroll;
     background-color: #fff;
 	background-position: 0px 0px,
                          center;
@@ -252,6 +256,7 @@ margin-left: -15px;
 	opacity: 0.6;
 	width: 500px;
 	height: 265px;
+	border-radius: 15px;
 }
 
 .block-5 .container {
