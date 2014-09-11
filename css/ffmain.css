@@ -4,7 +4,7 @@ body {
 	font-family: 'Lato';
     color: #000;
 	border-width: 0px;
-	padding: 0px;
+	
 	margin: 0px;
 	font-size: 90%;
 	background-color: #fff;
@@ -137,7 +137,7 @@ text-align: center;
     display: table;
     width: 100%;
     height: 700px;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
     color: #000;
     background: url(../img/BLOCKONEbw.jpg) no-repeat bottom center scroll;
@@ -174,13 +174,13 @@ margin-left: -15px;
 
     .intro {
         height: 100%;
-        padding: 0;
+      
     }
 
 .block-2 {
 	display: table;
     width: 100%;
-	height: auto;
+	
     text-align: center;
 	color: #000;
     background:  url(../img/BLOCKTWObw.jpg) no-repeat center scroll ;
@@ -189,7 +189,8 @@ margin-left: -15px;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	border-top: 50px solid #fff;
+	border-top: 20px solid #fff;
+	border-bottom: 30px solid #fff;
 }
 
 .block-2 .container {
@@ -211,7 +212,7 @@ margin-left: -15px;
 .block-3 {
     width: 100%;
 	height: 700px;
-    padding: 50px 0;
+    padding: 50px;
 	background-color: #fff;
     text-align: center;
 	margin-bottom: 20px;
@@ -236,7 +237,7 @@ margin-left: -15px;
 .block-5 {
     width: 100%;
 	height: 700px;
-    padding: 50px 0;
+    padding: 50px;
     color: #000;
     background:  url(../img/BLOCKFIVEbw.jpg) no-repeat bottom center scroll;
     background-color: #fff;
@@ -340,7 +341,7 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
-        padding: 0;
+     
     }
 
     ul.banner-social-buttons li:last-child {
@@ -349,7 +350,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 50px;
 }
 
 footer p {
@@ -467,7 +468,7 @@ body {
 }
 body {
    border-width: 0px;
-   padding: 0px;
+   
    margin: 0px;
    font-size: 90%;
    background-color: #fff;
