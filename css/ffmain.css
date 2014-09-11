@@ -231,7 +231,7 @@ margin-left: -15px;
 }
 
 .block-4 img {
-	width: 600px;
+	width: 100%;
 }
 
 .block-5 {
@@ -266,6 +266,9 @@ margin-left: -15px;
  margin: 100px;
  height: 700px;
  
+ }
+ #div5btn {
+	padding-top: 100px;
  }
 }
 
@@ -424,7 +427,7 @@ body {
    position: relative;
    float: left;
    left: 0.00%;
-   width: 100.00%;
+   width: 100%;
    height: 330px;
    background-color: #2f2f2f;
    color: #FFF;  
