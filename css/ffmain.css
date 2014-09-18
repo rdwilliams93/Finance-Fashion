@@ -32,7 +32,6 @@ h6 {
     width: 70px;
     height: 70px;
     margin-top: 15px;
-	margin-left: %;
     padding: 7px 16px;
     border: 2px solid #000;
     border-radius: 35px;
@@ -180,7 +179,7 @@ margin-left: -15px;
 .block-2 {
 	display: table;
     width: 100%;
-	
+	height: 100%;
     text-align: center;
 	color: #000;
     background:  url(../img/BLOCKTWObw.jpg) no-repeat center scroll ;
@@ -204,7 +203,7 @@ margin-left: -15px;
 	background: #FFF;
 	font-size: 22px;
 	width: 455px;
-	height: 110px;
+	height: auto;
 	opacity: 0.8;
 	border-radius: 15px;
 }
@@ -353,7 +352,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px;
+    padding: 10px;
 }
 
 footer p {
